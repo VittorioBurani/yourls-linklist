@@ -41,5 +41,5 @@ if ($query) {
 }
 }
 
-show_links(1000); // change from 1000 to whatever numbe of links you desire
+show_links(1000); // change from 1000 to whatever number of links you desire
 }
