@@ -35,7 +35,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/includes/load-yourls.php' ;
 
  echo '<h2>A basic list of my links</h2>';
 
-function show_links($numlinks) {
+function list_links_table($numlinks) {
 
 global $ydb;
  $table_url = YOURLS_DB_TABLE_URL;
@@ -55,7 +55,7 @@ if ($query) {
 }
 }
 
-show_links(1000); // change from 1000 to whatever number of links you desire
+list_links_table(1000); // change from 1000 to whatever number of links you desire
 yourls_html_footer();
 
 ?>

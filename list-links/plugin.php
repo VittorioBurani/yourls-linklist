@@ -21,7 +21,10 @@ function listlinks_do_page() {
         $nonce = yourls_create_nonce('list_links');
         echo '<h2>A basic list of my links</h2>';
         
-function show_links($numlinks) {
+listlinks_table(1000); // change from 1000 to whatever number of links you desire
+}
+
+function listlinks_table($numlinks) {
 
 global $ydb;
  $table_url = YOURLS_DB_TABLE_URL;
@@ -39,7 +42,4 @@ if ($query) {
 	}
 	echo '</table>';
 }
-}
-
-show_links(1000); // change from 1000 to whatever number of links you desire
 }
