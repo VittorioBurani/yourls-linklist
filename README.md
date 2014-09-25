@@ -1,5 +1,5 @@
-YOURLS
-======
+YOURLS LIST LINKS
+=================
 
 Some experimental work to make YOURLS do what what I want. It's compatible with my 1.7 install but I can't guarantee backwards compatibility.
 
