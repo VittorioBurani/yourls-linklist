@@ -6,7 +6,7 @@
     <title>Shortened Links</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #1c2129;"><!-- Change background color here -->
 <?php
     require_once $_SERVER['DOCUMENT_ROOT'].'/includes/load-yourls.php' ;
     include 'user/pages/linkslist.inc.php';
